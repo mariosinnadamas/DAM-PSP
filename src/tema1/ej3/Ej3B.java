@@ -11,6 +11,7 @@ public class Ej3B {
         ProcessBuilder pb = new ProcessBuilder("java", "tema1.ej3.Ej3");
         pb.directory(f);
         Process p = pb.start();
+
         //En este output sacas la información de este archivo (Por eso es out y no in), en este caso estamos sacando el 2 y 3
         OutputStream os = p.getOutputStream();
         os.write("2\n".getBytes()); //El \n nos simula haber dado al enter
