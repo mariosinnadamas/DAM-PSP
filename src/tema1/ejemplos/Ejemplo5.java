@@ -17,7 +17,7 @@ public class Ejemplo5 {
 		// escritura -- envia entrada 
 		OutputStream os = p.getOutputStream();
 		os.write("Hola Manuel\n".getBytes());
-		os.flush(); // vac�a el buffer de salida
+		os.flush(); // vacia el buffer de salida
 
 		// lectura -- obtiene la salida
 		InputStream is = p.getInputStream();
@@ -46,4 +46,4 @@ public class Ejemplo5 {
 		}
 	}
 
-}// Ejemplo5
+}
