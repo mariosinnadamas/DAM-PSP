@@ -1,5 +1,9 @@
 package tema1.ra1;
 
+/*
+    Escribe un programa que solicite un número, lo pase a un proceso hijo y éste
+    calcule el doble de dicho número, mostrando el resultado por pantalla.
+ */
 import java.io.*;
 
 public class Ej2Padre {
@@ -8,8 +12,14 @@ public class Ej2Padre {
         //Recoge el numero
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Introduce un numero: ");
-        int n = Integer.parseInt(br.readLine());
-
+        int n = 0;
+        try {
+            n = Integer.parseInt(br.readLine());
+        } catch (NumberFormatException e) {
+            System.out.println("ERROR: Debes introducir un numero entero");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
         //File dir = new File("out/production/PSP");

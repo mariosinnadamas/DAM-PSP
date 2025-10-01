@@ -1,6 +1,9 @@
 package tema1.ra1;
 
-import java.util.Scanner;
+/*
+    Crea una clase Java que calcule cuántos divisores tiene un número que le
+    pasaremos por parámetro. El resultado nos los mostrará posteriormente por pantalla.
+ */
 
 public class Ej1 {
     public static void main(String[] args) {
@@ -20,7 +23,7 @@ public class Ej1 {
             int divisores = contarDivisores(numero);
             System.out.println(divisores + " divisores de " + numero);
         } catch (NumberFormatException e) {
-            System.out.println("ERROR: Debes introducir un numero entero" + e.getMessage());
+            System.out.println("ERROR: Debes introducir un numero entero");
         }
     }
     public static int contarDivisores(int n){
