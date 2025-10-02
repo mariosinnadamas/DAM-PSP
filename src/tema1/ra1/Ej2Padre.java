@@ -11,7 +11,7 @@ public class Ej2Padre {
 
         //Recoge el numero
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Introduce un numero: ");
+        System.out.println("PADRE: Introduce un numero: ");
         int n = 0;
         try {
             n = Integer.parseInt(br.readLine());
@@ -21,14 +21,12 @@ public class Ej2Padre {
             e.printStackTrace();
         }
 
-
-        //File dir = new File("out/production/PSP");
         ProcessBuilder pb = new ProcessBuilder("java", "tema1.ra1.Ej2Hijo");
-        //pb.directory(dir);
-        //System.out.println(dir.exists());
-        Process process = pb.start();
 
+        Process process = pb.start();
+        //Aqui es donde le pasamos al proceso hijo introducido por el usuario
         OutputStream os = process.getOutputStream();
+        //Pasamos el numero recogido por el usuario y le añadimos \n para simular el enter del usuario
         os.write((n+"\n").getBytes());
         os.flush();
         os.close();
