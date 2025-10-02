@@ -18,35 +18,59 @@ import java.util.Scanner;
 public class Ej4 {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner (System.in);
-        String dec = "";
-        while (true){
-            System.out.println("1.Apagar, 2.Reiniciar, 3.Suspender");
-            dec = sc.nextLine().trim();
-            ProcessBuilder pb = new ProcessBuilder("");
-            switch (dec){
-                case "1": //Apagar
-                    System.out.println("¿Qué SO tienes? 1.Windows, 2.Linux");
-                    String so = sc.nextLine().trim();
-                    System.out.println("¿Cuando quieres apagarlo? El tiempo en segundos");
-                    String tiempo = sc.nextLine();
+        String dec;
 
-                    if (so.equalsIgnoreCase("1")){ //Apagar windows
-                        //pb.command("cmd", "shutdown /s /t " + tiempo);
-                        //pb.command("sh", "-c", "sudo shutdown -h now");
-                        pb.inheritIO();
-                        Process p = pb.start();
+        //Pedir accion
+        System.out.println("1.Apagar, 2.Reiniciar, 3.Suspender");
+        dec = sc.nextLine().trim();
+
+        System.out.println("¿Qué SO tienes? 1.Windows, 2.Linux");
+        String so = sc.nextLine().trim();
+
+        System.out.println("Escribe el tiempo en segundos: ");
+        String tiempo = sc.nextLine();
+
+        ProcessBuilder pb = new ProcessBuilder();
+        try {
+            if (so.equalsIgnoreCase("1")){ //Apagar windows
+                switch (dec){
+                    case "1":
+                        // CMD por el interprete de windows
+                        // /c indica que ejecute el comando que sigue y que luego se salga
+                        // /s apaga inmediatamente el pcç
+                        // /t es para que tarde x tiempo en ejecutar eso, solo funciona con apagar y reiniciar
+                        //Pb espera que le mandes un comando por partes, pero si usas /c no hace falta
+                        pb.command("CMD","/c","shutdown /s /t " + tiempo);
                         break;
-                    } else if (so.equalsIgnoreCase("2")) { //Apagar Linux
-
-                    }
-                    break;
-                case "2": //Reiniciar
-                    break;
-                case "3": //Suspender
-                    break;
-                default:
-                    break;
+                    case "2": //Reiniciar Windows
+                        pb.command("CMD","/c","shutdown /r /t " + tiempo);
+                        break;
+                    case "3": //Suspender Windows
+                        pb.command("CMD","/c","shutdown /h");
+                        break;
+                }
+            } else{
+                switch (dec){
+                    case "1":
+                        pb.command("sh", "-c", "shutdown -h +" + tiempo);
+                        break;
+                    case "2":
+                        pb.command("sh", "-c", "shutdown -r +" + tiempo);
+                        break;
+                    case "3":
+                        pb.command("sh", "-c", "systemctl suspend");
+                        break;
+                }
             }
+            try {
+                Process p = pb.start();
+                int exitValue = p.waitFor();
+                System.out.println(exitValue);
+            } catch (IOException | InterruptedException e){
+                e.printStackTrace();
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
 
     }

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79209557-6428-4a50-8af7-18181b296a53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ra1/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ra1/Ej4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mariosinnadamas&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mariosinnadamas/DAM-PSP.git&quot;,
+    &quot;accountId&quot;: &quot;0bb08335-33c0-41f5-aa7e-b22d5565a5fb&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -31,25 +44,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Ej2.executor": "Run",
-    "Application.Ejemplo02.executor": "Run",
-    "Application.Ejemplo03.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "<unknown>",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/2/PSP",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Ej1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej2Hijo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej2Padre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej3B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejemplo07.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploLectura.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DAM/2/PSP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tema1/ejemplos" />
@@ -77,6 +98,13 @@
       <workItem from="1758882048965" duration="74000" />
       <workItem from="1758882138605" duration="3407000" />
       <workItem from="1758926296470" duration="128000" />
+      <workItem from="1758926430193" duration="284000" />
+      <workItem from="1759127738293" duration="4157000" />
+      <workItem from="1759131923736" duration="4618000" />
+      <workItem from="1759138575633" duration="3152000" />
+      <workItem from="1759403715926" duration="1137000" />
+      <workItem from="1759404991260" duration="218000" />
+      <workItem from="1759405323545" duration="1589000" />
     </task>
     <servers />
   </component>
