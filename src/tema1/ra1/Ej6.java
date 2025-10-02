@@ -14,7 +14,7 @@ pantalla.
  */
 public class Ej6 {
     public static void main(String[] args) {
-        File a = new File("tema1/ra1/Texto.txt");
+
         ProcessBuilder pbA = new ProcessBuilder("java","-cp",".", "tema1.ra1.Ej6ContarA");
         ProcessBuilder pbE = new ProcessBuilder("java", "tema1.ra1.Ej6ContarE");
         ProcessBuilder pbI = new ProcessBuilder("java", "tema1.ra1.Ej6ContarI");
@@ -22,7 +22,6 @@ public class Ej6 {
         ProcessBuilder pbU = new ProcessBuilder("java", "tema1.ra1.Ej6ContarU");
 
         try {
-            pbA.directory(a);
             Process pA = pbA.start();
 
             Process pE = pbE.start();
