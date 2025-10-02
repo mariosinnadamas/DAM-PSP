@@ -16,6 +16,7 @@ pantalla.
 • Cuando el proceso padre reciba la palabra “fin”, finalizará la ejecución del
 hijo y procederá a finalizar su ejecución.
  */
+
 public class Ej3Padre {
     public static void main(String[] args) throws InterruptedException, IOException {
         Scanner sc = new Scanner(System.in);
