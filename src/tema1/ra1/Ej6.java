@@ -10,4 +10,7 @@ los resultados parciales y mostrará el total de vocales encontradas en la
 pantalla.
  */
 public class Ej6 {
+    public static void main(String[] args) {
+
+    }
 }
