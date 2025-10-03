@@ -1,6 +1,5 @@
 package tema1.ej3;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ej3 {

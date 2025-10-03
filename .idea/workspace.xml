@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7991d88-5eba-489c-8136-7915daa94e25" name="Changes" comment="Merge branch 'main' of https://github.com/mariosinnadamas/DAM-PSP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ej1/LeerNombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ej1/LeerNombre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ej1/LeerNombre2B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ej1/LeerNombre2B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ej2/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ej2/Ej2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ej3/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ej3/Ej3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ra1/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ra1/Ej1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ra1/Ej3Padre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ra1/Ej3Padre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ra1/Ej5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ra1/Ej5.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "Merging main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>

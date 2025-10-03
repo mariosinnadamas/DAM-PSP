@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class LeerNombre {
     public static void main(String[] args) {
-        Scanner sc = new Scanner (System.in);
         /*
 
         Crea un programa Java llamado LeerNombre.java que reciba desde los argumentos de
