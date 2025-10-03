@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ej3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        //Rehacer pero que haya un proceso hijo que te calcule la suma de dos numeros
         int n1;
         int n2;
         int resultado;

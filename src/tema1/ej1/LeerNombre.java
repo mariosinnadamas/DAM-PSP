@@ -6,6 +6,7 @@ public class LeerNombre {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         /*
+
         Crea un programa Java llamado LeerNombre.java que reciba desde los argumentos de
         main() un nombre y lo visualice en pantalla.
         Utiliza System.exit(0) para una finalización correcta del programa y System.exit(-1)

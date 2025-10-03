@@ -26,6 +26,7 @@ public class Ej5 {
             e.printStackTrace();
         }
         */
+
         System.out.println("Introduce el minimo desde el que quieres que empiece a sumar: ");
         int min = sc.nextInt();
         System.out.println("Introduce el maximo hasta el que quieres que sume: ");

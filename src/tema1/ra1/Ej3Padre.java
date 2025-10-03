@@ -45,7 +45,7 @@ public class Ej3Padre {
             }
         }
 
-        //Cerramos porque no hemos usado try with resources
+        //Cierro porque no he usado try with resources
         hijoEntrada.close();
 
         try{
