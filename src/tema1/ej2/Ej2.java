@@ -8,7 +8,6 @@ public class Ej2 {
         File f = new File(".");
     try{
         //Ponemos una ruta inventada
-
         ProcessBuilder pb = new ProcessBuilder("java","-cp", ".","tema1.ej1.LeerNombre", "Prueba");
         pb.directory(f);
         Process p = pb.start();

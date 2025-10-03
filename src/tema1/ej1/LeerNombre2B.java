@@ -1,6 +1,7 @@
 package tema1.ej1;
 
 import java.io.File;
+import java.io.IOException;
 
 public class LeerNombre2B {
     public static void main(String[] args) {
@@ -30,8 +31,8 @@ public class LeerNombre2B {
             int exitCode2 = p2.waitFor();
             //Si sale con -1 o 255 es error porque no se pasó un argumento
             System.out.println("Exited with code " + exitCode2);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        } catch (IOException | InterruptedException e) {
+            System.out.println(e.getMessage());
         }
     }
 }
