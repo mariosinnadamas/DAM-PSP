@@ -13,4 +13,7 @@ desea que el programa creado sume la cantidad total que suman todas las
 cantidades de los cinco ficheros haciendo uso del paralelismo.
  */
 public class Ej7 {
+    public static void main() {
+
+    }
 }

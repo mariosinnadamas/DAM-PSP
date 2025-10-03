@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f7991d88-5eba-489c-8136-7915daa94e25" name="Changes" comment="Merge branch 'main' of https://github.com/mariosinnadamas/DAM-PSP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/ej1/LeerNombre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ej1/LeerNombre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/ej1/LeerNombre2B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ej1/LeerNombre2B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/ej2/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ej2/Ej2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/ej3/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ej3/Ej3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/ra1/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ra1/Ej1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/ra1/Ej3Padre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ra1/Ej3Padre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tema1/ra1/Ej5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ra1/Ej5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tema1/ra1/Ej7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tema1/ra1/Ej7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Merge branch 'main' of https://github.com/mariosinnadamas/DAM-PSP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1759499198380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759499198380</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'main' of https://github.com/mariosinnadamas/DAM-PSP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1759499216657</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759499216657</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/mariosinnadamas/DAM-PSP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/mariosinnadamas/DAM-PSP&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
 </project>
