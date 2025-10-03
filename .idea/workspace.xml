@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="79209557-6428-4a50-8af7-18181b296a53" name="Changes" comment="Ej 5 hecho, falta el 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="79209557-6428-4a50-8af7-18181b296a53" name="Changes" comment="Actualización ejercicio 4" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +35,11 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/mariosinnadamas/DAM-PSP.git&quot;,
+<<<<<<< Updated upstream
     &quot;accountId&quot;: &quot;0bb08335-33c0-41f5-aa7e-b22d5565a5fb&quot;
+=======
+    &quot;accountId&quot;: &quot;cc484413-c54c-4666-a7e7-88f7c4224823&quot;
+>>>>>>> Stashed changes
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -50,27 +58,46 @@
     &quot;Application.Ej2Padre.executor&quot;: &quot;Run&quot;,
     &quot;Application.Ej3.executor&quot;: &quot;Run&quot;,
     &quot;Application.Ej3B.executor&quot;: &quot;Run&quot;,
+<<<<<<< Updated upstream
     &quot;Application.Ej4.executor&quot;: &quot;Run&quot;,
     &quot;Application.Ej5.executor&quot;: &quot;Run&quot;,
+=======
+    &quot;Application.Ej3Hijo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej3Padre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej4.executor&quot;: &quot;Run&quot;,
+>>>>>>> Stashed changes
     &quot;Application.Ejemplo02.executor&quot;: &quot;Run&quot;,
     &quot;Application.Ejemplo03.executor&quot;: &quot;Run&quot;,
     &quot;Application.Ejemplo07.executor&quot;: &quot;Run&quot;,
     &quot;Application.EjemploLectura.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< Updated upstream
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/DAM/2/PSP&quot;,
+=======
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mario/Documents/DAM/2/PSP&quot;,
+>>>>>>> Stashed changes
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+<<<<<<< Updated upstream
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+=======
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+>>>>>>> Stashed changes
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -105,6 +132,7 @@
       <workItem from="1759127738293" duration="4157000" />
       <workItem from="1759131923736" duration="4618000" />
       <workItem from="1759138575633" duration="3152000" />
+<<<<<<< Updated upstream
       <workItem from="1759403715926" duration="1137000" />
       <workItem from="1759404991260" duration="218000" />
       <workItem from="1759405323545" duration="1589000" />
@@ -131,14 +159,52 @@
       <updated>1759418407175</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+=======
+      <workItem from="1759313135387" duration="681000" />
+      <workItem from="1759313824169" duration="739000" />
+      <workItem from="1759386563858" duration="4319000" />
+      <workItem from="1759392599634" duration="3720000" />
+      <workItem from="1759398427197" duration="347000" />
+      <workItem from="1759398960340" duration="1080000" />
+      <workItem from="1759400068604" duration="55000" />
+      <workItem from="1759417855942" duration="635000" />
+      <workItem from="1759481959063" duration="293000" />
+    </task>
+    <task id="LOCAL-00001" summary="Actualización ejercicio 4">
+      <option name="closed" value="true" />
+      <created>1759400099857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759400099857</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< Updated upstream
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ej 4 hecho" />
     <MESSAGE value="Ej 5 hecho, falta el 6" />
     <option name="LAST_COMMIT_MESSAGE" value="Ej 5 hecho, falta el 6" />
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Actualización ejercicio 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualización ejercicio 4" />
+>>>>>>> Stashed changes
   </component>
 </project>
