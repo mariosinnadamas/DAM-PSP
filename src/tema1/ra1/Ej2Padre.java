@@ -5,11 +5,13 @@ package tema1.ra1;
     calcule el doble de dicho número, mostrando el resultado por pantalla.
  */
 import java.io.*;
+import java.util.Scanner;
 
 public class Ej2Padre {
     public static void main(String[] args) throws IOException, InterruptedException {
-
+        //CORREGIR DE JOSE
         //Recoge el numero
+        Scanner sc = new Scanner(System.in);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("PADRE: Introduce un numero: ");
         int n = 0;

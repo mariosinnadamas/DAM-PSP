@@ -11,6 +11,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Ej5 {
+    //Volver a hacer pero separando la suma en un proceso hijo, el ejercicio está bien
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         File f = new File ("src/tema1/ra1/numeros.dat");
