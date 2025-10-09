@@ -5,7 +5,7 @@ import java.io.*;
 public class Ej6ContarO {
     public static void main(String[] args) {
 
-        File f = new File("tema1/ra1/Texto.txt");
+        File f = new File("../Recursos/Texto.txt");
         String linea;
         char c;
         int contador = 0;
