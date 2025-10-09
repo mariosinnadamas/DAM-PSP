@@ -102,6 +102,7 @@ public class Ej6 {
             exitValue = pU.waitFor();
             System.out.println("ExitValue de U: " + exitValue);
 
+
             br.close();
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
