@@ -2,7 +2,7 @@ package tema1.ra1;
 
 import java.io.*;
 
-public class Ej6ContarA {
+public class Ej6ContarE {
     public static void main(String[] args) {
 
         File f = new File("tema1/ra1/Texto.txt");
@@ -13,7 +13,7 @@ public class Ej6ContarA {
             while ((linea = br.readLine())!=null){
                 for (int i = 0; i < linea.length(); i++) {
                     c = linea.charAt(i);
-                    if (c == 'a' || c == 'A'){
+                    if (c == 'e'|| c == 'E'){
                         contador++;
                     }
                 }
@@ -23,6 +23,6 @@ public class Ej6ContarA {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("Salida de A: " + contador);
+        System.out.println("Salida de E: " + contador);
     }
 }

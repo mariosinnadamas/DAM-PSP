@@ -23,16 +23,73 @@ public class Ej6 {
 
         try {
             Process pA = pbA.start();
-
             Process pE = pbE.start();
             Process pI = pbI.start();
             Process pO = pbO.start();
             Process pU = pbU.start();
-            BufferedReader br = new BufferedReader(new InputStreamReader(pA.getInputStream()));
-            String resultado = br.readLine();
-            System.out.println(resultado);
-            br.close();
 
+            BufferedReader br = new BufferedReader(new InputStreamReader(pA.getInputStream()));
+            String linea;
+            //Leer salida del hijo A
+            while ((linea = br.readLine())!= null){
+                System.out.println(linea);
+            }
+
+            //Leer errores del hijo A
+            BufferedReader erA = new BufferedReader(new InputStreamReader(pA.getErrorStream()));
+            while ((linea = erA.readLine()) != null) {
+                System.err.println("HIJO ERROR A-> " + linea);
+            }
+
+            //Leer salida del hijo E
+            BufferedReader brE = new BufferedReader(new InputStreamReader(pE.getInputStream()));
+            while ((linea = brE.readLine())!= null){
+                System.out.println(linea);
+            }
+
+            //Leer errores del hijo E
+            BufferedReader erE = new BufferedReader(new InputStreamReader(pE.getErrorStream()));
+            while ((linea = erE.readLine()) != null) {
+                System.err.println("HIJO ERROR E-> " + linea);
+            }
+
+            //Leer salida del hijo I
+            BufferedReader brI = new BufferedReader(new InputStreamReader(pI.getInputStream()));
+            while ((linea = brI.readLine())!= null){
+                System.out.println(linea);
+            }
+
+            //Leer errores del hijo I
+            BufferedReader erI = new BufferedReader(new InputStreamReader(pI.getErrorStream()));
+            while ((linea = erI.readLine()) != null) {
+                System.err.println("HIJO ERROR I-> " + linea);
+            }
+
+            //Leer salida del hijo O
+            BufferedReader brO = new BufferedReader(new InputStreamReader(pO.getInputStream()));
+            while ((linea = brO.readLine())!= null){
+                System.out.println(linea);
+            }
+
+            //Leer errores del hijo O
+            BufferedReader erO = new BufferedReader(new InputStreamReader(pO.getErrorStream()));
+            while ((linea = erO.readLine()) != null) {
+                System.err.println("HIJO ERROR O -> " + linea);
+            }
+
+            //Leer salida del hijo U
+            BufferedReader brU = new BufferedReader(new InputStreamReader(pU.getInputStream()));
+            while ((linea = brU.readLine())!= null){
+                System.out.println(linea);
+            }
+
+            //Leer errores del hijo U
+            BufferedReader erU = new BufferedReader(new InputStreamReader(pO.getErrorStream()));
+            while ((linea = erU.readLine()) != null) {
+                System.err.println("HIJO ERROR U -> " + linea);
+            }
+
+            //Salidas
             int exitValue;
             exitValue = pA.waitFor();
             System.out.println("ExitValue de A: " + exitValue);
@@ -44,6 +101,8 @@ public class Ej6 {
             System.out.println("ExitValue de O: " + exitValue);
             exitValue = pU.waitFor();
             System.out.println("ExitValue de U: " + exitValue);
+
+            br.close();
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
